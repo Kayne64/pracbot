@@ -2,9 +2,9 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {
     data: new SlashCommandBuilder()
-    .setName('')
-    .setDescription(''),
+    .setName('uptime')
+    .setDescription('Provides Uptime of the Bot'),
     async execute(interaction) {
-
+        
     },
 };
